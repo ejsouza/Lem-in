@@ -3,7 +3,7 @@
 for **traversing or searching** a tree or graph.
 
 My algorithm is based on the [Breadth-first search (BFS) algorithm.](https://en.wikipedia.org/wiki/Breadth-first_search) <br />
-First I created a two dimensional matrix for storing all the connection from point A to B, next the program start running <br />
+First I created a two dimensional matrix for storing all the connections from point A to B, next the program start running <br />
 and storing the shortest connection (path) in a `queue` (First In First Out), once the program is done doing so <br />
 I only need to go backward in the `queue` to print the quickest way from point A to B.
 
